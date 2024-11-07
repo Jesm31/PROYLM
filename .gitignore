@@ -1,0 +1,42 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Django files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+db.sqlite3
+/media
+/static
+*.bak
+
+# Django secret key
+.env
+
+# MySQL database files (si usas un archivo para almacenamiento de datos, generalmente no es necesario con MySQL, pero puede ser útil si usas backups en tu proyecto)
+*.sql
+*.mysql
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+.virtualenv/
+
+# VSCode settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# PyCharm settings
+.idea/
+
+# Windows system files
+Thumbs.db
+Desktop.ini
